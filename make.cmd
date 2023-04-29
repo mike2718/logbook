@@ -1,7 +1,7 @@
 @echo off
 cd /d "%~dp0"
 
-C:\cmdtool32\iconv.exe -f WINDOWS-936 -t UTF-8 BG7XTQ.CSV > BG7XTQ.UTF8.CSV
-C:\cmdtool32\iconv.exe -f WINDOWS-936 -t UTF-8 BG7XTQ.ADI > BG7XTQ.UTF8.ADI
+C:\cmdtool32\iconv.exe -f WINDOWS-936 -t UTF-8 BG7XTQ.CSV > BG7XTQ.utf8.csv
+C:\cmdtool32\iconv.exe -f WINDOWS-936 -t UTF-8 BG7XTQ.ADI > BG7XTQ.utf8.adi
 
 git archive --format=zip --prefix=logbook/ --output=../logbook.zip main
