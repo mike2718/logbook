@@ -15,6 +15,7 @@
 *.txt text eol=crlf
 *.cab text eol=crlf
 *.cbr text eol=crlf
+*.awk text eol=crlf
 
 # Declare files that will always have LF line endings on checkout.
 *.sh text eol=lf
