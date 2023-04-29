@@ -8,9 +8,13 @@
 # Declare files that will always have CRLF line endings on checkout.
 *.cmd text eol=crlf
 *.ADI text eol=crlf
-*.CSV text eol=crlf
 *.adi text eol=crlf
+*.CSV text eol=crlf
 *.csv text eol=crlf
+*.log text eol=crlf
+*.txt text eol=crlf
+*.cab text eol=crlf
+*.cbr text eol=crlf
 
 # Declare files that will always have LF line endings on checkout.
 #*.sh text eol=lf
