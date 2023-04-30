@@ -1,3 +1,8 @@
 # 自用业余无线电台日志
 
-[BG7XTQ的日志](BG7XTQ.md)
+[Markdown格式的电台日志](BG7XTQ.md)
+
+## 使用软件
+
+- Logger32 Version 4.0.305
+- awk version 20121220
