@@ -16,5 +16,5 @@ NR > 1 {
     #else rst_sent = $37
     #if($36 == "") rst_rcvd = "-";
     #else rst_rcvd = $36
-    printf "| %u | %s/%u/%u | %u:%s | %u:%s | %s | %3.3f | %s | %s | %s | %s | %s | %s | %s |\n", $62, date[1], date[2], date[3], time_on[1], time_on[2], time_off[1], time_off[2], $6, $14, $20, $37, $36, $51, $38, $35, $23, qsl_sent, qsl_rcvd
+    printf "| %u | %s/%u/%u | %u:%s | %u:%s | %s | %3.3f | %s | %s | %s | %s | %s | %s | %s |\n", $62, date[1], date[2], date[3], time_on[1], time_on[2], time_off[1], time_off[2], $6, $14, $20, $37, $36, $51, $38, $23, qsl_sent, qsl_rcvd
 }
