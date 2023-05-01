@@ -11,6 +11,7 @@
 *.tsv text
 *.edi text
 *.ADI text
+*.csv text
 *.CSV text
 
 # Declare files that will always have CRLF line endings on checkout.
