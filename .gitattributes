@@ -6,10 +6,10 @@
 *.md text
 *.cbr text
 *.awk text
-*.utf8.adi text
-*.utf8.csv text
 *.tsv text
 *.edi text
+*.EDI text
+*.adi text
 *.ADI text
 *.csv text
 *.CSV text
