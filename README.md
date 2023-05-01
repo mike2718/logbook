@@ -1,7 +1,7 @@
 # 自用业余无线电台日志
 
-[Markdown格式的电台日志](BG7XTQ.md)
-[CSV格式的电台日志](BG7XTQ.CSV)
+- [Markdown格式的电台日志](BG7XTQ.md)
+- [CSV格式的电台日志](BG7XTQ.CSV)
 
 ## 使用软件
 
