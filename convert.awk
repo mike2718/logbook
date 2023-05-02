@@ -8,9 +8,9 @@ NR > 1 {
     split($34, date, ".");
     split($49, time_on, ":");
     split($50, time_off, ":");
-    if ($28 == "Y") qsl_sent = "是";
+    if ($28 == "Y") qsl_sent = "✓";
     else qsl_sent = ""
-    if ($27 == "Y") qsl_rcvd = "是";
+    if ($27 == "Y") qsl_rcvd = "✓";
     else qsl_rcvd = ""
     #if($37 == "") rst_sent = "-";
     #else rst_sent = $37
