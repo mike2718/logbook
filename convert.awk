@@ -1,3 +1,4 @@
+#!/c/cmdtool32/awk -f
 BEGIN {
     print "# BG7XTQ的电台日志"
     print
