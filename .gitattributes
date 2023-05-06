@@ -6,8 +6,11 @@
 *.md text
 *.awk text
 *.adi text
+*.adif text
 *.csv text
 *.asc text
+*.cbr text
+*.log text
 
 # Declare files that will always have CRLF line endings on checkout.
 *.cmd text eol=crlf
