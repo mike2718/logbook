@@ -17,7 +17,7 @@ NR > 1 {
     # $37 发送信号报告
     # $38 对方功率
     # $51 我的功率
-    printf "| **%u** | %u/%u/%u | %u:%02u | %u:%02u | `%s` | %.3f | %.3f | %s | %s | %s | %s | %s | %s | %s | %s |\n", $62, qso_date[1] qso_date[2] qso_date[3] qso_date[4], qso_date[5] qso_date[6], qso_date[7] qso_date[8], time_on[1], time_on[2], time_off[1], time_off[2], $6, $58, $14, $20, $37, $36, ($51 == "" ? "" : $51 "W"), ($38 == "" ? "" : $38 "W"), $23, ($28 == "Y" ? "✓" : ""), ($27 == "Y" ? "✓" : "")
+    printf "| **%u** | %u/%u/%u | %u:%02u | %u:%02u | `%s` | %.3f | %.3f | %s | %s | %s | %s | %s | %s | %s | %s |\n", $62, qso_date[1] qso_date[2] qso_date[3] qso_date[4], qso_date[5] qso_date[6], qso_date[7] qso_date[8], time_on[1], time_on[2], time_off[1], time_off[2], $6, $58, $14, $20, $37, $36, ($51 == "" ? "" : $51 "W"), ($38 == "" ? "" : $38 "W"), $23, ($64 == "Y" ? "✓" : ""), ($63 == "Y" ? "✓" : "")
 }
 END {
     printf "\n"
