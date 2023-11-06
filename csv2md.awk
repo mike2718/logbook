@@ -1,3 +1,6 @@
+# csv2md.awk
+# 把从Logger32导出的.csv格式电台日志文件转换成GitHub风格的Markdown电台日志表格
+
 BEGIN {
         print "# BG7XTQ的电台日志"
         printf "\n"
