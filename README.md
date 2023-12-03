@@ -1,7 +1,9 @@
-# 业余无线电台BG7XTQ的通联日志
+# 自用通联日志备份
 
-- [Markdown格式的日志](BG7XTQ.md)
-- [CSV格式的日志](BG7XTQ.CSV)
+## BG7XTQ的日志
+
+- [Markdown格式](BG7XTQ.md)
+- [CSV格式](BG7XTQ.CSV)
 
 ## 使用软件
 
