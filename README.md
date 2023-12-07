@@ -8,5 +8,5 @@
 ## 使用软件
 
 - Logger32
-- KLog 2.3.2
+- N1MM Logger+
 - awk version 20231001
