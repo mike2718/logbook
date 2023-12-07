@@ -1,6 +1,6 @@
-# 自用通联日志备份
+# 自用电台日志备份
 
-## BG7XTQ的日志
+## BG7XTQ的电台日志
 
 - [Markdown格式](BG7XTQ.md)
 - [CSV格式](BG7XTQ.CSV)
