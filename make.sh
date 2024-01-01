@@ -10,5 +10,5 @@ rm -f *.utf8.csv
 
 git add *.CSV *.ADI *.md
 
-git archive --format=tar.xz --prefix=logbook/ --output=../logbook.tar.xz main
-cp -f ../logbook.tar.xz /d/
+#git archive --format=tar.xz --prefix=logbook/ --output=../logbook.tar.xz main
+#cp -f ../logbook.tar.xz /d/
