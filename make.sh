@@ -8,7 +8,6 @@ rm -f *.utf8.csv
 git add *.CSV *.ADI *.md
 git commit -m '更新'
 git push
-git push gitlab main
 
 git archive --format=zip --prefix=logbook/ --output=../logbook.zip main
 cp -f ../logbook.zip /d/logbook.zip
