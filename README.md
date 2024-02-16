@@ -9,4 +9,4 @@
 
 - Logger32
 - N1MM Logger+
-- awk version 20231001
+- awk version 20240122
