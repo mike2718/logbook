@@ -4,7 +4,7 @@
 
 - [Markdown格式](BG7XTQ.md)
 - [CSV格式](BG7XTQ.CSV)
-- [ADI格式](BG7XTQ.adi)
+- [ADI格式](BG7XTQ.ADI)
 
 ## BG7XSS电台的日志（BG7XTQ客席操作）
 
