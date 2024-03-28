@@ -1,6 +1,7 @@
 # csv2md.awk
 # 把从Logger32导出的.csv格式电台日志文件转换成GitHub风格的Markdown电台日志表格
 
+# 此函数鸣谢：ChatGPT
 function month_to_english_abbreviation(month) {
     if (month == "01") return "Jan"
     else if (month == "02") return "Feb"
