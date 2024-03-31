@@ -3,18 +3,18 @@
 
 # 此函数鸣谢：ChatGPT
 function month_to_english_abbreviation(month) {
-    if (month == "01") return "Jan"
-    else if (month == "02") return "Feb"
-    else if (month == "03") return "Mar"
-    else if (month == "04") return "Apr"
-    else if (month == "05") return "May"
-    else if (month == "06") return "Jun"
-    else if (month == "07") return "Jul"
-    else if (month == "08") return "Aug"
-    else if (month == "09") return "Sep"
-    else if (month == "10") return "Oct"
-    else if (month == "11") return "Nov"
-    else if (month == "12") return "Dec"
+    if (month == "01") return "JAN"
+    else if (month == "02") return "FEB"
+    else if (month == "03") return "MAR"
+    else if (month == "04") return "APR"
+    else if (month == "05") return "MAY"
+    else if (month == "06") return "JUN"
+    else if (month == "07") return "JUL"
+    else if (month == "08") return "AUG"
+    else if (month == "09") return "SEP"
+    else if (month == "10") return "OCT"
+    else if (month == "11") return "NOV"
+    else if (month == "12") return "DEC"
     else return "Unknown"
 }
 
@@ -30,7 +30,8 @@ NF > 0 && NR > 1 {
         split($48, time_on, ":")
         split($49, time_off, ":")
         #printf "| **%u** | %u.%u.%u | %02u%02u | %02u%02u | `%s` | %.3f | %.3f | %s | %s | %s | %s | %s | %s | %s | %s |\n", $61, qso_date[1] qso_date[2] qso_date[3] qso_date[4], qso_date[5] qso_date[6], qso_date[7] qso_date[8], time_on[1], time_on[2], time_off[1], time_off[2], $5, $57, $13, $19, $36, $35, ($50 == "" ? "" : $50 "W"), ($37 == "" ? "" : $37 "W"), $22, ($63 == "Y" ? "✓" : ""), ($62 == "Y" ? "✓" : "")
-        printf "| **%u** | %s. %u, %u | %02u%02u | %02u%02u | `%s` | %.3f | %.3f | %s | %s | %s | %s | %s | %s | %s | %s |\n", $61, month_to_english_abbreviation(qso_date[5] qso_date[6]), qso_date[7] qso_date[8], qso_date[1] qso_date[2] qso_date[3] qso_date[4], time_on[1], time_on[2], time_off[1], time_off[2], $5, $57, $13, $19, $36, $35, ($50 == "" ? "" : $50 "W"), ($37 == "" ? "" : $37 "W"), $22, ($63 == "Y" ? "✓" : ""), ($62 == "Y" ? "✓" : "")
+        #printf "| **%u** | %s. %u, %u | %02u%02u | %02u%02u | `%s` | %.3f | %.3f | %s | %s | %s | %s | %s | %s | %s | %s |\n", $61, month_to_english_abbreviation(qso_date[5] qso_date[6]), qso_date[7] qso_date[8], qso_date[1] qso_date[2] qso_date[3] qso_date[4], time_on[1], time_on[2], time_off[1], time_off[2], $5, $57, $13, $19, $36, $35, ($50 == "" ? "" : $50 "W"), ($37 == "" ? "" : $37 "W"), $22, ($63 == "Y" ? "✓" : ""), ($62 == "Y" ? "✓" : "")
+        printf "| **%u** | %s %u %u | %02u%02u | %02u%02u | `%s` | %.3f | %.3f | %s | %s | %s | %s | %s | %s | %s | %s |\n", $61, month_to_english_abbreviation(qso_date[5] qso_date[6]), qso_date[7] qso_date[8], qso_date[1] qso_date[2] qso_date[3] qso_date[4], time_on[1], time_on[2], time_off[1], time_off[2], $5, $57, $13, $19, $36, $35, ($50 == "" ? "" : $50 "W"), ($37 == "" ? "" : $37 "W"), $22, ($63 == "Y" ? "✓" : ""), ($62 == "Y" ? "✓" : "")
 }
 
 END {
