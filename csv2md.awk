@@ -19,7 +19,7 @@ function month_to_english_abbreviation(month) {
 }
 
 BEGIN {
-        print "# 电台BG7XTQ的日志"
+        print "# 业余无线电台BG7XTQ的日志"
         printf "\n"
         print "| 序号 | 日期(UTC) | 开始时间(UTC) | 结束时间(UTC) | 电台呼号 | 下行频率(MHz) | 上行频率(MHz) | 模式 | RST(发送) | RST(接收) | 功率W(我的) | 功率W(对方) | 摘要 | QSL卡片(发) | QSL卡片(收) |"
         print "| :--: | :--: | :---: | :----: | :---: | :--: | :--: | :--: | :-----: | :-----: | :--: | :--: | :--: | :--: | :--: |"
