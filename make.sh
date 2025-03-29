@@ -7,8 +7,7 @@ rm -f BG7XTQ.md
 rm -f BG7XTQ.utf8.csv
 
 git add *.CSV *.ADI *.md
-git commit -m '更新'
+git commit -m "Update"
 git push origin main
 
-git archive --format=zip --prefix=logbook/ --output=../logbook.zip main
-cp -f ../logbook.zip /d/logbook.zip
+git archive --format=zip --prefix=logbook/ --output=/d/logbook.zip main
