@@ -13,6 +13,4 @@
 ## 使用软件
 
 - Logger32
-- N1MM Logger+
-- awk version 20240122
-
+- awk version 20240728
