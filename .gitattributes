@@ -3,7 +3,7 @@
 .gitignore text eol=crlf
 
 # Markdown 文本文件
-*.md text working-tree-encoding=UTF-8 eol=crlf
+*.md text working-tree-encoding=UTF-8
 
 # Shell 脚本（建议统一行尾）
 *.sh text eol=lf
