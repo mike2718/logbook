@@ -1,6 +1,6 @@
 # Git 识别的配置文件，均为纯文本
-.gitattributes text eol=crlf
-.gitignore text eol=crlf
+.gitattributes text eol=lf
+.gitignore text eol=lf
 
 # Markdown 文本文件
 *.md text working-tree-encoding=UTF-8
