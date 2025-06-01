@@ -1,6 +1,6 @@
 # 业余无线电台BG7XTQ的日志
 
-| 序号 | DATE | UTC | CALLSIGN | QRG | MODE | RST(发送) | RST(接收) | 功率(我的) | 功率(对方) | PROP | COMMENT | QSL卡(发) | QSL卡(收) |
+| # | DATE | UTC | CALLSIGN | FREQ (MHz) | MODE | RST (SENT) | RST (RCVD) | PWR (MY) | PWR (THEIR) | PROP | COMMENT | QSL (SENT) | QSL (RCVD) |
 | :--: | :--: | :---: | :---: | :--: | :--: | :-----: | :-----: | :--: | :--: | :--: | :--: | :--: | :--: |
 | **1** | 2022-Dec-27 | 13:54UTC | `BG7TTZ` | 439.600 | FM | 59 | 59 | 5W |  |  | 南宁老友中继台网活动 |  |  |
 | **2** | 2022-Dec-31 | 16:54UTC | `BG7XTJ` | 439.600 | FM | 59 | 59 | 5W |  |  | QTH位置不明 |  |  |
