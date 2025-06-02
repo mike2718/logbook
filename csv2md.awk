@@ -29,7 +29,7 @@ NF > 0 && NR > 1 {
         split($32, qso_date, "")
         split($48, time_on, ":")
         split($49, time_off, ":")
-        printf "| **%u** | %4u-%s-%02u | %02u:%02u | `%s` | %.3f | %s | %s | %s | %s | %s | %s | %s | %s | %s |\n", $61, qso_date[1] qso_date[2] qso_date[3] qso_date[4], month_to_english_abbreviation(qso_date[5] qso_date[6]), qso_date[7] qso_date[8], time_on[1], time_on[2], $5, $57, $19, $36, ($35 == "" ? "N/A" : $35), ($50 == "" ? "" : $50 "W"), ($37 == "" ? "" : $37 "W"),  $39, $22, ($63 == "Y" ? "✓" : ""), ($26 == "Y" ? "✓" : "")
+        printf "| **%u** | %4u-%s-%02u | %02u:%02u | `%s` | %.3f | %s | %s | %s | %s | %s | %s | %s | %s | %s |\n", $61, qso_date[1] qso_date[2] qso_date[3] qso_date[4], month_to_english_abbreviation(qso_date[5] qso_date[6]), qso_date[7] qso_date[8], time_on[1], time_on[2], $5, $57, $19, $36, ($35 == "" ? "N/A" : $35), ($50 == "" ? "" : $50 "W"), ($37 == "" ? "N/A" : $37 "W"),  $39, $22, ($63 == "Y" ? "✓" : "✗"), ($26 == "Y" ? "✓" : "✗")
 }
 
 END {
