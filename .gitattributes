@@ -3,7 +3,7 @@
 .gitignore text eol=lf
 
 # Markdown 文本文件
-*.md text working-tree-encoding=UTF-8
+*.md text eol=lf
 
 # Shell 脚本（建议统一行尾）
 *.sh text eol=lf
@@ -13,10 +13,11 @@
 
 # CSV 文件为 ISO-8859 编码，可能不是 UTF-8，建议标为二进制防止误操作
 *.csv binary
+*.CSV binary
 
 # ADIF 文件识别为 MPEG ADIF 音频（即不是纯文本），视为二进制
 *.adi binary
 *.ADI binary
 
 # 默认规则（可选）：所有未知扩展不作行尾或编码处理
-* text=auto
+#* text=auto
