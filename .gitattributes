@@ -3,7 +3,8 @@
 .gitignore text eol=lf
 
 # Markdown 文本文件
-*.md text eol=lf
+BG7XTQ.md text eol=crlf
+README.md text eol=auto
 
 # Shell 脚本（建议统一行尾）
 *.sh text eol=lf
